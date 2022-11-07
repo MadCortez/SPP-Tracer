@@ -20,17 +20,9 @@ namespace MainProram {
     public class Foo {
         private Bar _bar;
         private ITracer _tracer;
-
         internal Foo(ITracer tracer) {
             _tracer = tracer;
             _bar = new Bar(_tracer);
-        }
-
-        public void MyMethod()
-        {
-            _tracer.StartTrace();
-            _bar.InnerMethod();
-            _tracer.StopTrace();
         }
 
         public void MyMethod2() {
@@ -39,6 +31,11 @@ namespace MainProram {
             _tracer.StopTrace();
         }
 
+        public void MyMethod() {
+            _tracer.StartTrace();
+            _bar.InnerMethod();
+            _tracer.StopTrace();
+        }
     }
 
     public class Bar
@@ -75,6 +72,7 @@ namespace MainProram {
             foreach (var item in jsonAndXml) {
                 Console.WriteLine(item);
             }
+
         }
 
         public void JsonXmlToFile(string[] jsonAndXml) {
