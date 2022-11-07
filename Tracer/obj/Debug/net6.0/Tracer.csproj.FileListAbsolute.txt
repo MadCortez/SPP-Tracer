@@ -1,0 +1,12 @@
+D:\labs5sem\SPP\1\Tracer\bin\Debug\net6.0\Tracer.deps.json
+D:\labs5sem\SPP\1\Tracer\bin\Debug\net6.0\Tracer.dll
+D:\labs5sem\SPP\1\Tracer\bin\Debug\net6.0\Tracer.pdb
+D:\labs5sem\SPP\1\Tracer\obj\Debug\net6.0\Tracer.csproj.AssemblyReference.cache
+D:\labs5sem\SPP\1\Tracer\obj\Debug\net6.0\Tracer.GeneratedMSBuildEditorConfig.editorconfig
+D:\labs5sem\SPP\1\Tracer\obj\Debug\net6.0\Tracer.AssemblyInfoInputs.cache
+D:\labs5sem\SPP\1\Tracer\obj\Debug\net6.0\Tracer.AssemblyInfo.cs
+D:\labs5sem\SPP\1\Tracer\obj\Debug\net6.0\Tracer.csproj.CoreCompileInputs.cache
+D:\labs5sem\SPP\1\Tracer\obj\Debug\net6.0\Tracer.dll
+D:\labs5sem\SPP\1\Tracer\obj\Debug\net6.0\refint\Tracer.dll
+D:\labs5sem\SPP\1\Tracer\obj\Debug\net6.0\Tracer.pdb
+D:\labs5sem\SPP\1\Tracer\obj\Debug\net6.0\ref\Tracer.dll
