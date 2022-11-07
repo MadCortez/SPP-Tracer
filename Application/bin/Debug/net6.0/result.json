@@ -1,0 +1,53 @@
+[
+  {
+    "time": 255,
+    "methodName": "1",
+    "className": "Thread",
+    "traceResultList": [
+      {
+        "time": 64,
+        "methodName": "MyMethod",
+        "className": "Foo",
+        "traceResultList": [
+          {
+            "time": 63,
+            "methodName": "InnerMethod",
+            "className": "Bar",
+            "traceResultList": []
+          }
+        ]
+      },
+      {
+        "time": 63,
+        "methodName": "InnerMethod",
+        "className": "Bar",
+        "traceResultList": []
+      },
+      {
+        "time": 63,
+        "methodName": "InnerMethod1",
+        "className": "Bar",
+        "traceResultList": []
+      },
+      {
+        "time": 63,
+        "methodName": "InnerMethod2",
+        "className": "Bar",
+        "traceResultList": []
+      }
+    ]
+  },
+  {
+    "time": 64,
+    "methodName": "9",
+    "className": "Thread",
+    "traceResultList": [
+      {
+        "time": 64,
+        "methodName": "InnerMethodForSecondThread",
+        "className": "Bar",
+        "traceResultList": []
+      }
+    ]
+  }
+]
